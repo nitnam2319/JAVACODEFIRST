@@ -12,7 +12,7 @@ class Calculator extends JFrame implements ActionListener{
                  double operand1,operand2,total;
     public Calculator()
     {
-        frame= new JFrame("TextField Example");  
+        frame= new JFrame("Calculator");  
         calculations = new int[100];
         //Upper Input Box  
         inputdata=new JTextField();  
